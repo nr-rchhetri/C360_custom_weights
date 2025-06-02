@@ -1,0 +1,9 @@
+pandas==2.2.3
+xgboost==1.7.5
+shap==0.46.0
+snowflake-connector-python[pandas]==3.12.4
+boto3==1.35.76
+cryptography==44.0.0
+pyarrow==18.1.0
+scikit-learn==1.5.2
+beautifulsoup4==4.12.2
