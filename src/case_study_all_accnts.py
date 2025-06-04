@@ -6,7 +6,7 @@ select *
 from dev.gtm.customer_360_v5_hscores
 where 
  LATEST_EFFECTIVE_ACR between 100000 and 1000000
-and SALES_HIER_GEO in ('AMER')
+ and SALES_HIER_GEO in ('AMER')
 ),
 min_accnt_date as 
 (
@@ -30,9 +30,7 @@ and f.SFDC_ACCOUNT_NAME = m.SFDC_ACCOUNT_NAME
 
 select *
 from segments
-where 
-segment_name in ('Early Volume Plan','Early Savings Plan','Late Volume Plan','Late Savings Plan','PAYG')
-and SUBSCRIPTION_ACCOUNT_ID in ('2416082', '4432444', '2324092', '1629146', '3124988', '661978') ;
+where segment_name in ('Early Volume Plan','Early Savings Plan','Late Volume Plan','Late Savings Plan','PAYG') ;
 
 
 --select * 
