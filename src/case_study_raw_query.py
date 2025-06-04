@@ -32,7 +32,7 @@ select *
 from segments
 where 
 segment_name in ('Early Volume Plan','Early Savings Plan','Late Volume Plan','Late Savings Plan','PAYG')
-and SUBSCRIPTION_ACCOUNT_ID in ('2416082', '4432444', '2324092', '1629146', '3124988', '661978') ;
+and SUBSCRIPTION_ACCOUNT_ID in ('2416082', '2324092', '1629146', '3124988', '661978') ;
 
 
 --select * 
