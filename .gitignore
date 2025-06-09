@@ -4,3 +4,16 @@ src/final_mq_v2 (3).csv
 src/final_mq_v2 (4).csv
 src/final_mq_v3.csv
 src/amc_entertainment_holdings.csv
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Other common files to ignore
+.vscode/
+.DS_Store
